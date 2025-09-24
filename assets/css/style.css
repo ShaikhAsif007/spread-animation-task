@@ -3,14 +3,12 @@ body{
     height: 100vh;
     font-size: 75px;
     color:gold;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .spread span{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
     transition:all .3s linear ;
     cursor: pointer;
     display: inline-block;
