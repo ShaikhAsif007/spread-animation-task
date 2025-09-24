@@ -6,15 +6,16 @@ body{
 
 }
 
-.spread{
+.spread span{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
     transition:all .3s linear ;
     cursor: pointer;
+    display: inline-block;
 }
 
-.spread:hover{
+.spread span:hover{
     transform: translateY(-10px) rotate(-10deg) scale(1.3);
 }
