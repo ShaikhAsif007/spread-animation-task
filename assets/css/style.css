@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    height: 100vh;
+    font-size: 75px;
+    color:gold;
+
+}
+
+.spread{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition:all .3s linear ;
+    cursor: pointer;
+}
+
+.spread:hover{
+    transform: translateY(-10px) rotate(-10deg) scale(1.3);
+}
